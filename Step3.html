@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .steps {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        .steps h1 {
+            font-size: x-large;
+            padding: 1rem;
+            background: #b9b9b9;
+            color: rgb(0, 0, 0);
+        }
+
+        #yr {
+            background-color: skyblue;
+        }
+
+        #ac {
+            background-color: lightgreen;
+        }
+
+        #pd {
+            background-color: lightgreen;
+        }
+
+        a {
+            list-style: none;
+            text-decoration: none;
+        }
+
+        style>body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            /* background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%; */
+            display: flex;
+            justify-content: center;
+            padding-top: 2rem;
+        }
+
+        fieldset {
+            border: 2px solid gray;
+            width: 51%;
+            padding: 2rem;
+           background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA0wMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAABAgMABAUGB//EABsQAQEBAQEBAQEAAAAAAAAAAAABAhExEiFB/8QAGQEBAQEBAQEAAAAAAAAAAAAAAgEDAAQF/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERAhL/2gAMAwEAAhEDEQA/AP15hbjd56FKahxQpaWn0Rw0lJVNEsIKnSX1SlsVE6VSwvOEUKaetwZHNeRh4WHjm/LGgSGjmjCLIlJS1SwtjmXSViWovYlqOYdIaS26NRLUKPPUOMf5ZQfRcY3G4873k4BgscNLSKWF4ugnYSxWkqhUrA4pYVUTsLxShwocJweG4aRWvJZDSDw0iNo0hpB4aRzWF4PDcHg6lTsLYtYW5TWPSFidy6LCajpWHTl1lPWXTrKdyWsK5/kVPli0ce5xuG4Dz69pbC8UKo1OwtVpbFCpcLYpYWxQqdheKWBYWuifA4fjcU4Tg8NwZHa0gcNIB5Etbc1uGkaRSQdOUJDcGQ8ylrqlwLlb5C5HWfTn1kmsujWSXKysK5tZTuXTrKdyWsrHP8sr8iuj5em1hmZa9mE43DUFCk4WxQtWM6nSVSwlWDS0vD0vpJCWAewLFIBgxo6nGkNAhpBaymkPmFh8pTlNmKSFyrmM6RfkLlXjWJqWa57kmsujWU9RYwvLm1nidi+oSwoFiPGPxiF3MzMnrwKA0KQWAFGktKMrApKa0v8AFjPCgNodJI1KagpM09Y0dSjQ0CGE4MNCw8GtJTxXHieVchTh4wCClsS2tpHaweojpLSm6lqtIwpaxbf1lF6DB0Ojj2CFC0LVCxqStaW1Yxsakta0OlGdalrWl6YU3RJ0ZXLKYYBoNKGg8/QhoNKU2TQIaCcPD5pIYbDlUDpPoLpMLTaqO6OtI60sg2hqob0benPvTSRlTXTI3bFga9brWk61rPHtN3oWltC1YFrWl6FpbSkY9DaS39bVL1cZUQ6FpemJ5RTlNHYh5VEofI0pVIeEimQpGhoWemEpRHpQtQ5TdLdBana6RdHWkd6HWkN6KQb0G9fjn3o29Ib21kZWtdMjdMWBr3et0nQ6yfQPaW39LaFqhRtLaFpbVxj0NpehaHSkZWtaHQ6C4Gn6MqZpXY7VpT5SzVMjYquarlHKkZ0pVIPSweoQl1W8Lai6FqeqbVS1Vkdpd6R3o26hqnINpN6Q3T7qG61jK0LQLb+sQa95rSsxx9UaXrWguM+mtLRparHoArBfCZdMwC4GGAMVymVMpRTIdLFcqRKKZZ1VIwRhKVultGk05S6T3TaS3SiWp7qG6rpDZwKluobqu0dNIztIwX0CF9AzMxfWBmZWfRaWizmVAt8ZiY0BZnCwxmc48UjMPSxSHyzBVPBZhWFvhazIVT0jtmKDUdo7ZjgVz7S0zNYzqV9ZmIX/2Q==) ;
+           background-size: cover;
+        }
+
+        legend {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: x-large;
+        }
+        legend{
+            font-size: x-large;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+        .rv{
+            display: flex;
+        }
+     #signMeUp{
+        width: 30%;
+     }
+      
+    </style>
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="steps">
+        <a href="Step1.html">
+            <h1 id="ac">Step 1: Account</h1>
+        </a>
+        <a href="Step2.html">
+            <h1 id="pd">Step 2: Personal Details</h1>
+        </a>
+        <a href="Step3.html">
+            <h1 id="yr">Step 3: Your Review</h1>
+        </a>
+     
+    </div>
+    <div class="fd">
+        <form>
+        <fieldset>
+             
+            <legend>How did you hear about us?</legend>
+            <label for="source">Source:</label>
+            <select id="source" name="source">
+                <option value="fb">From Facebook</option>
+                <option value="insta">From Instagram</option>
+                <option value="linkedin">From LinkedIn</option>
+                <option value="other">Other</option>
+            </select>
+            <input type="text" id="otherSource" name="otherSource" placeholder="Other source" style="display: none;"><br><br>
+    <br>
+
+   <div class="rv">
+   <label> Would you visit again?</label>
+            <label><input type="radio" name="visitAgain" value="yes"> Yes</label>
+            <label><input type="radio" name="visitAgain" value="no"> No</label>
+            <label><input type="radio" name="visitAgain" value="maybe"> Maybe</label>
+        </div>
+      
+      
+
+          
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+      
+
+    
+            <legend>Documents</legend>
+            <label for="documents">Upload documents:</label>
+            <input type="file" id="documents" name="documents" accept=".pdf, .doc, .docx">
+     
+
+           <label> Sign me up for updates </label>   <input type="checkbox" id="signMeUp" name="signMeUp">
+        <!-- <label for="signMeUp">Sign me up for updates</label> -->
+
+        <div>
+            <a href="Step2.html">   <img src="back.png" alt="" width="150px"></a>
+            <a href="Thanks.html"> <img src="submit.png" alt="" width="150px"></a>
+        </div>
+       
+    </fieldset>
+</form>
+    </div>
+
+
+
+</body>
+
+</html>
